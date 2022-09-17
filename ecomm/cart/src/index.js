@@ -1,6 +1,5 @@
-console.log("Cart ...");
+import faker from 'faker';
 
-const randomNum = Math.floor(Math.random() * 100);
-const numberOfRecords = `<div>Number of items in the card: ${randomNum}</div>`;
+const cartText = `<div>You have ${faker.random.number()} items in your cart</div>`;
 
-document.querySelector('#dev-cart').innerHTML = numberOfRecords;
+document.querySelector('#dev-cart').innerHTML = cartText;

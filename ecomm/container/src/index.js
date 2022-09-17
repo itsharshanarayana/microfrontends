@@ -1,2 +1,2 @@
 
-console.log('Container!');
+import ('./boostrap');
